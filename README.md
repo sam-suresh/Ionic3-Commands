@@ -8,8 +8,11 @@ Simply list all useful commands of Ionic 3
 # NVM
 Switch to different Node JS version:-
 
-  'nvm ls'
-  'nvm use 6.9.1'
+  export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+  nvm ls
+  nvm use 6.9.1
 
 
 
